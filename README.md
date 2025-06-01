@@ -3,12 +3,15 @@
 Dataset Link: https://www.kaggle.com/datasets/thedevastator/python-code-instruction-dataset
 
 **Project overview**
+
 This project is about being able for AI to be able to explain the code clearly based on the code itself presented, the input and the expected output. The output of this project is the model hopefully is able to produce the code explanation from the given code. For this project, I used granite-3.3-8b-instruct because we are dealing with codes with specific use cases and can be very long lines of code. We will first get the dataset and feed it to the model which hopefully will give a good explanation of the code given.
 
 **Analysis process**
+
 Since codes can be very long and specific, I used granite-3.3-8b-instruct which can handle those things really well. The process is just gonna feed the dataset to the model, train it and hopefully give a good explanation on the code.
 
 **Insights & Findings**
+
 **Input**
 --- Selected Problem Instruction: --- 
 Create a python code to convert a string of comma-separated numbers into list.
@@ -65,7 +68,9 @@ This code efficiently converts a comma-separated string of numbers into a list o
 Based on those code outputs, we can safely assume that the model was able to explain the code very well. The explanations are on point and clear enough with a good step-by-step to it.
 
 **Conclusion & Recommendations**
+
 From the output, we can see that the model performed well and can be very good to use for people starting to code and need some explanations on how to do things.
 
 **AI support Explanations**
+
 AI is used here to explain code starting from taking in the input from the dataset, analyzing it and give a clear output. It is basically the core of this project.
