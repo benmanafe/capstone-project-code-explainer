@@ -71,5 +71,3 @@ From the output, we can see that the model performed well and can be very good t
 
 # **AI support Explanations**
 AI is used here to explain code starting from taking in the input from the dataset, analyzing it and give a clear output. It is basically the core of this project.
-
-AI is used here to explain code starting from taking in the input from the dataset, analyzing it and give a clear output. It is basically the core of this project.
