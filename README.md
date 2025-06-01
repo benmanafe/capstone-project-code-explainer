@@ -25,7 +25,6 @@ Below is an instruction that describes a task. Write a response that appropriate
 --- Code to be Explained: --- 
 ```python numbers = '1,2,3,4,5,6' numbers_list = [int(x) for x in numbers.split(',')] print(numbers_list) # [1, 2, 3, 4, 5, 6] ```
 
----
 
 ## **Prompt**
 prompt = f"""You are an expert programmer and code explainer.
@@ -45,7 +44,6 @@ Code:
 ``python
 {code_to_explain}"""
 
----
 
 ## **Output**
 --- Code Explanation (from Granite) --- 
